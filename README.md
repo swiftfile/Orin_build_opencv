@@ -1,6 +1,6 @@
 # OpenCV build script for Tegra
 
-This script builds OpenCV from source on Tegra (AGX,Orin).
+This script builds OpenCV from source on Tegra (Gen Orin(CUDA_ARCH_BIN=8.7) ).
 
 Related thread on Nvidia developer forum 
 [here](https://devtalk.nvidia.com/default/topic/1051133/jetson-nano/opencv-build-script/).
