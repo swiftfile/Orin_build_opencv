@@ -1,6 +1,6 @@
 # OpenCV build script for Tegra
 
-This script builds OpenCV from source on Tegra (Nano, NX, AGX, etc.).
+This script builds OpenCV from source on Tegra (AGX,Orin).
 
 Related thread on Nvidia developer forum 
 [here](https://devtalk.nvidia.com/default/topic/1051133/jetson-nano/opencv-build-script/).
@@ -9,12 +9,13 @@ Related thread on Nvidia developer forum
 
 ## Usage:
 ```shell
+# swiftfile sets default opencv ver to 4.5.5.
 ./build_opencv.sh
 ```
 
 ## Specifying an OpenCV version (git branch)
 ```shell
-./build_opencv.sh 4.4.0
+./build_opencv.sh 4.5.5 
 ```
 
 Where `4.4.0` is any version of openCV from 2.2 to 4.4.0
